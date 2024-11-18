@@ -1,8 +1,9 @@
-class SudokuSol {
-    // Check if it's safe to place the number in the cell
+class SudokuSol 
+{
     public static boolean isSafe(char[][] board, int row, int col, int num) 
     {
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 9; i++) 
+        {
             if (board[i][col] == (char) (num + '0')) 
             {
                 return false;
