@@ -52,11 +52,11 @@ class Student
         return Grade;
     }
 
-    public void setRollNum(int RollNum)
+    public void setRollNum(String RollNum)
     {
         this.RollNum=RollNum;
     }
-    public int getRollNum()
+    public String getRollNum()
     {
         return RollNum;
     }
